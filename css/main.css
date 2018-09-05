@@ -1,5 +1,5 @@
 /*==============================================
-          Feast Website Stylesheet
+          Mead St Website Stylesheet
            Body Core Stylesheet
 ===============================================*/
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
@@ -115,7 +115,7 @@ header .social-icons i {
     font-weight: 600;
     top: 0;
     width: 100%;
-    background: rgba(73, 160, 3, 0.87);
+    background: rgba(80,80,80, 0.87);
 }
 .sticky img {
     transition-duration: 0.5s;
@@ -128,7 +128,7 @@ header .social-icons i {
     transition-duration: 0.5s;
     margin-top: 10px;
 }
-header .social-icons i:hover {color: #49a003;}
+header .social-icons i:hover {color: #505050}
   .affix {
       top: 0;
       z-index: 9999 !important;
@@ -249,10 +249,9 @@ header .social-icons i:hover {color: #49a003;}
     font-size: 66px;
     font-weight: 300;
     line-height: 73px;
-    color: #fff;
+    color:black;
     letter-spacing: -5px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #000;
+    font-family: 'Special Elite', cursive;
     padding: 10px;
     display: inline-block;
 }
@@ -399,7 +398,7 @@ header .social-icons i:hover {color: #49a003;}
     left:0;
 }
 /*==================== 
-    Blog Section
+    Brunch & CocktailsSection
 ====================*/
 .blog {
     width: 100%; 
@@ -429,10 +428,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     font-size: 66px;
     font-weight: 300;
     line-height: 45px;
-    color: #fff;
+    color:black;
     letter-spacing: -5px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #000;
+    font-family: 'Special Elite', cursive;
+    
     padding: 10px;
     display: inline-block;
 }
