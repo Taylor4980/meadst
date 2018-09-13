@@ -242,8 +242,10 @@ header .social-icons i:hover {color: #505050}
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/meadpatioview.jpg); 
 }
+
+
 .banner-home h1,.banner-home h2 {
     padding: 0;
     font-size: 66px;
@@ -251,7 +253,7 @@ header .social-icons i:hover {color: #505050}
     line-height: 73px;
     color:black;
     letter-spacing: -5px;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite';
     padding: 10px;
     display: inline-block;
 }
@@ -341,8 +343,8 @@ header .social-icons i:hover {color: #505050}
 /*==================== 
     About Section
 ====================*/
-.about {width: 100%; height: auto;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;}
-.about .img-thumbnail {width: 100%;height: 689px;padding: 0;object-fit: cover;border: none;border-radius: 0;}
+.about {width: 100%; height: auto;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5; padding-top: 10px; }
+.about .img-thumbnail {width: 100%;height: 500px;padding: 0;object-fit: cover;border: none;border-radius: 0;}
 .about h2 {padding-top: 76px;padding-bottom: 10px; font-size: 40px;font-weight: 300;}
 .about span {color: #49a003;}
 .about p {font-size: 18px;font-weight: 300;padding-bottom: 20px;}
@@ -398,14 +400,14 @@ header .social-icons i:hover {color: #505050}
     left:0;
 }
 /*==================== 
-    Brunch & CocktailsSection
+Brunch & CocktailsSection
 ====================*/
 .blog {
     width: 100%; 
     height: auto;
     padding-top: 100px;
     padding-bottom: 80px;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/meadwallpaper.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
