@@ -343,7 +343,7 @@ header .social-icons i:hover {color: #505050}
 /*==================== 
     About Section
 ====================*/
-.about {width: 100%; height: auto;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5; padding-top: 10px; }
+.about {width: 100%; height: auto;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;  }
 .about .img-thumbnail {width: 100%;height: 500px;padding: 0;object-fit: cover;border: none;border-radius: 0;}
 .about h2 {padding-top: 76px;padding-bottom: 10px; font-size: 40px;font-weight: 300;}
 .about span {color: #49a003;}
