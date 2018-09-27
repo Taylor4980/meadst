@@ -1,3 +1,4 @@
+
 /*==============================================
           Mead St Website Stylesheet
            Body Core Stylesheet
@@ -5,7 +6,7 @@
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 *:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 body {
-    width: 100%;
+    width: 100vw;
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -166,7 +167,7 @@ header .social-icons i:hover {color: #505050}
     display: block;
     transition: 0.3s;
 }
-.sidenav a:hover,.sidenav .active {color: #49a003;}
+.sidenav a:hover,.sidenav .active {color: #e2ebdc;}
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -242,7 +243,7 @@ header .social-icons i:hover {color: #505050}
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: url(../images/meadpatioview.jpg); 
+    background-image: url(../images/meadfront.jpg); 
 }
 
 
@@ -280,74 +281,16 @@ header .social-icons i:hover {color: #505050}
     border: 2px solid #49a003;
 }
 .banner-home .fa-phone {margin-left: 15px;}
-/*==================== 
- Testimonial Section
-====================*/
-.quote {
-    color: rgba(0,0,0,.1);
-    text-align: right;
-    margin-bottom: 30px;
-}
 
-/*-------------------------------*/
-/*    Carousel Fade Transition   */
-/*-------------------------------*/
-.testimonial {width: 100%; height: auto;padding-top: 100px;padding-bottom: 20px;}
-.testimonial .heading {color: #000;text-align: center;padding-bottom: 60px;}
-.testimonial .heading h2 {font-size: 40px; text-transform: capitalize;font-weight: 400;padding-bottom: 10px;}
-.testimonial .heading h2 span {color: #49a003;}
-.testimonial .heading h3 {font-size: 18px;padding: 0 180px;line-height: 35px;}
-.testimonial .col1 {border-right: 1px solid #e5e5e5;}
-.testimonial #fade-quote-carousel.carousel .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
-}
-.testimonial #fade-quote-carousel.carousel .carousel-inner .active {
-  opacity: 1;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
-}
-.testimonial #fade-quote-carousel.carousel .carousel-indicators {
-  bottom: 10px;
-}
-.testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
-  border: none;
-}
-.testimonial #fade-quote-carousel blockquote {
-    border: none;
-}
-.testimonial #fade-quote-carousel blockquote p {padding-top: 50px;}
-.testimonial #fade-quote-carousel .profile-circle1,#fade-quote-carousel .profile-circle2 {
-    width: 120px;
-    height: 120px;
-    background-image: url("../images/person-1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 100px;
-    padding-bottom: 40px;
-}
-.testimonial #fade-quote-carousel .profile-circle2 {background-image: url("../images/person-2.jpg");display: inline-block;}
-.testimonial .carousel-inner {padding: 0 30px;padding-bottom: 40px;}
-.testimonial .fa-quote-right {margin-top: -55px;position: relative;}
-.testimonial .fa-quote-left {position: absolute;}
-.testimonial .fa-angle-double-down,.testimonial .fa-angle-double-up {color: #e5e5e5;position: absolute;right: 0;margin-right: -9px;margin-top: -25px;font-size: 25px;}
-.testimonial .fa-angle-double-up {margin-top: 10px;}
-.testimonial .carousel-inner .text1 {font-size: 18px;font-weight: 600; display: inline-block;padding: 35px 20px;line-height: 23px;}
-.testimonial .carousel-inner .text2 {display: inline-block;padding: 0 20px;position: absolute;padding: 35px 20px;line-height: 25px;font-size: 18px;font-weight: 600;}
-.testimonial .carousel-inner .text1 span,.text2 span {display: block;font-weight: 400;}
 /*==================== 
     About Section
 ====================*/
 .about {width: 100%; height: auto;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;  }
-.about .img-thumbnail {width: 100%;height: 500px;padding: 0;object-fit: cover;border: none;border-radius: 0;}
-.about h2 {padding-top: 76px;padding-bottom: 10px; font-size: 40px;font-weight: 300;}
+.about .img-thumbnail {width: 100%;height: 500px; padding-top: 10px;object-fit: cover;border: none;border-radius: 0;}
+.about h2 {padding-top: 40px;padding-bottom: 10px; font-size: 40px;font-weight: 300;}
 .about span {color: #49a003;}
-.about p {font-size: 18px;font-weight: 300;padding-bottom: 20px;}
+.welcomeStyle{font-family:'Special Elite', cursive; }
+.about p {font-size: 18px;font-weight: 400;padding-bottom: 10px;}
 .about ul>li {display: block; padding-bottom: 25px;}
 .about ul>li a {font-size: 18px;font-weight: 500; color: #000;}
 .about ul>li .fa {font-size: 18px; margin-right: 10px;color: #39b54a;}
@@ -456,6 +399,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     line-height: 23px;
     font-weight: 400;
     line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .blog .img-thumbnail {
     object-fit: cover;
