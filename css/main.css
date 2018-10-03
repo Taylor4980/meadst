@@ -1310,8 +1310,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
       
 }
 
+.call{
+    color: #4b6992;
+}
+
+.socail{
+    color: #4b6992;
+}
+
 #buttons{
     background-color: #4b6992;
+    border-color: #4b6992;
 }
 .inside{
     display: flex;
