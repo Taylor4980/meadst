@@ -251,7 +251,7 @@ header .social-icons i:hover {color: #505050}
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: url(../images/meadfront.jpg); 
+    background-image: url(../images/meadfront-min.jpg); 
 }
 
 
@@ -358,7 +358,7 @@ Brunch & CocktailsSection
     height: auto;
     padding-top: 100px;
     padding-bottom: 80px;
-    background-image: url("../images/meadwallpaper.jpg");
+    background-image: url("../images/meadwallpaper-min.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1349,4 +1349,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     padding: 10px;
 }
 
-
+#contactus{
+background: none;
+color:#4b6992;
+}
