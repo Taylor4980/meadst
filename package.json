@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Taylor4980/meadst/issues"
   },
-  "homepage": "https://github.com/Taylor4980/meadst#readme",
+  "homepage": "https://github.com/DuringerDesigns5280/meadst#readme",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "firebase-functions": "^2.0.5",
