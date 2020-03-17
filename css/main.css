@@ -160,9 +160,10 @@ header .social-icons i:hover {color: #505050}
 }
 
 .navbutton{
-    background-color:  #000000;
+    background-color: transparent;
     color: white;
     border: none;
+    margin-left: -8px;
     
 }
 .sidenav.hided {width: 0;}
@@ -294,7 +295,7 @@ header .social-icons i:hover {color: #505050}
     About Section
 ====================*/
 .about {width: 100%; height: auto;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;  }
-.about .img-thumbnail {width: 100%;height: 500px; padding-top: 10px;object-fit: cover;border: none;border-radius: 0;}
+.about .img-thumbnail {width: 100%;padding-top: 10px;object-fit: cover;border: none;border-radius: 0;}
 .about h2 {padding-top: 40px;padding-bottom: 10px; font-size: 40px;font-weight: 300;}
 .about span {color:  #4b6992;}
 .welcomeStyle{font-family:'Special Elite', cursive; }
@@ -496,9 +497,9 @@ footer .gradient {
     top: 0;
     left: 0;
 }
-footer address p {color: #828181; font-size: 20px;}
+footer address p {color: white; font-size: 20px;}
 footer address p span {display: block;}
-footer address p .call {color: #4b6992; font-size: 22px;font-weight: 500;}
+footer address p .call {color: white; font-size: 22px;font-weight: 500;}
 footer .fa {font-size: 25px;}
 footer .fa-facebook-official {color:#0054a6;}
 footer .fa-twitter {color:#00ffff;}
@@ -1138,7 +1139,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     .about p {font-size: 14px;padding-bottom: 5px;}
     .about h2 {padding-top: 30px;font-size: 32px;}
     .about .btn-primary {font-size: 15px;padding: 10px 0;}
-    .about .img-thumbnail {height: 300px;}
+    .about .img-thumbnail {height: 500px;}
     .items .heading {padding-bottom: 40px;}
     .items .heading h3 {line-height: 20px; font-size: 12px;padding: 0 120px;}
     .items .heading h2 {font-size: 28px;}
@@ -1213,7 +1214,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
     .banner-home .btn-success {font-size: 12px;padding: 11px 10px;letter-spacing: 0.5px;}
     .testimonial {padding-top: 40px;padding-bottom: 0;}
     .testimonial .heading h3 {padding: 0 30px;;}
-    .about .img-thumbnail {height: 200px;}
+    .about .img-thumbnail {height: 300px; width: 500px}
     .about p {font-size: 12px;letter-spacing: 0.5px;font-weight: 400;padding-bottom: 5px;}
     .about h2 {font-weight: 400;}
     .textBox h5 {font-size: 16px;}
@@ -1311,7 +1312,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', e
 }
 
 .call{
-    color: #4b6992;
+    color: white;
 }
 
 .socail{
